@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<script src="https://kit.fontawesome.com/f13a9149e6.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/f13a9149e6.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="checkOut.css">
+    <title>Check Out</title>
+</head>
+
+<body>
+
+<!-- header Start -->
+<nav class="py-2 bg-light border-bottom">
+    <div class="container d-flex flex-wrap">
+      <ul class="nav me-auto">
+        <li class="nav-item"><a href="#" class="nav-link link-dark px-2 fw-bold"><i
+              class="fa-solid fa-mobile-screen mx-2 fs-5"></i>+92318-2171364</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-dark px-2 fw-bold"><i
+              class="fa-solid fa-envelope mx-2 fs-5"></i>info752@gmail.com</a></li>
+      </ul>
+      <ul class="nav">
+        <li class="nav-item"><a href="https://www.Facebook.com" target="blank" class="nav-link link-dark px-2"><i
+                    class="text-secondary fa-brands fa-facebook fs-5"></i></a></li>
+        <li class="nav-item"><a href="https://www.instagram.com" target="blank" class="nav-link link-dark px-2"><i
+                    class="text-secondary fa-brands fa-instagram fs-5"></i></a></li>
+        <li class="nav-item"><a href="https://www.twitter.com" target="blank" class="nav-link link-dark px-2"><i
+                    class="text-secondary fa-brands fa-twitter fs-5"></i></a></li>
+        <li class="nav-item"><a href="https://www.linkedin.com" target="blank" class="nav-link link-dark px-2"><i
+                    class="text-secondary fa-brands fa-linkedin-in fs-5"></i></a></li>
+        <li class="nav-item"><a href="https://www.youtube.com" target="blank" class="nav-link link-dark px-2"><i
+                    class="text-secondary fa-brands fa-youtube fs-5"></i></a></li>
+    </ul>
+    </div>
+  </nav>
+  
+  <!-- navbar Start -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand fs-2 fw-bold" href="#"><img src="/img/logo.png" id="logo" alt=""><span class="brand">Shoe brand</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item ul_list">
+            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item ul_list">
+            <a class="nav-link" href="/index.html#about">About</a>
+          </li>
+          <li class="nav-item ul_list">
+            <a class="nav-link" href="/Services.html">Services</a>
+          </li>
+          <li class="nav-item ul_list">
+            <a class="nav-link" href="/faq's.html">FAQ's</a>
+          </li>
+          <li class="nav-item ul_list">
+            <a class="nav-link" href="/contact.html">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+        <i class="fa-solid fa-cart-shopping fs-3" id="search"></i>
+          <div id="item-count">
+            <p class="fw-bold" id="number_count"></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+
+
+
+
+
+
+    <div class="container mt-5" >
+
+        <div id="no-cart-msg">
+            <div class="alert alert-success" role="alert">
+                Your cart is empty. Buy best shoes from 
+                <b><a href="shop.html">here</a></b>
+            </div>
+        </div>
+        <div class="row" id="checkout-section">
+            <div class="col-sm-8 p-3 " id="Order-summary" >
+                <h4>Shopping Cart</h4>
+
+                <div class="row text-secondary my-3">
+                    <div class="col-sm-6">
+                        <h6 class="cart-header">Product</h6>
+                    </div>
+                    <div class="col-sm-2">
+                        <h6 class="cart-header">quantity</h6>
+                    </div>
+                    <div class="col-sm-2">
+                        <h6 class="cart-header">Total Price</h6>
+                    </div>
+                </div>
+                <hr>
+                <!-- cart end -->
+            </div>
+
+            <div class="col-sm-4  bg-light p-5" id="total-amount">
+                <h4>Payement Info.</h4>
+                <h6 class="mt-5 text-secondary">Payment Method</h6>
+                <div class="form-check mt-4">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        <i class="fa-brands fa-paypal mx-2"></i>  Paypal
+                    </label>
+                </div>
+                <div class="form-check mt-2">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        <i class="fa-solid fa-credit-card mx-2"></i>  Credit Card
+                    </label>
+                </div>
+                <div class="mt-5">
+                    <label for="exampleInputEmail1" class="form-label text-secondary">Card Number</label>
+                    <input type="text" placeholder="----- ---- ---- 233" class=" form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text"></div>
+                </div>
+                <div class="mt-5">
+                    <label for="exampleInputEmail1" class="form-label text-secondary">Expiration Date</label>
+                    <input type="date"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text"></div>
+                </div>
+                <button type="button" id="checkOut_btn" class="btn btn-primary py-2">Check Out</button>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+          
+    <h5 class="container my-5">
+       <a href="shop.html"><i class="fa-solid fa-arrow-left mx-2"></i>
+        Continue Shopping</a> 
+    </h5>
+
+
+
+
+    
+<!-- Footer start -->
+<div class="footer">
+    <div class="container">     
+        <div class="row">                       
+            <div class="col-lg-4 col-sm-4 col-xs-12">
+                <div class="single_footer">
+                    <h4>Contact Information</h4>
+                    <ul class="d-flex">
+                      <i class="fs-1 mx-2  fa-solid fa-location-dot"></i>
+                        <li><a href="#"> Phase-v DHA Karachi ZamZama <br> Main Road plot-2/89</a></li>
+                    </ul>
+                    <ul class="d-flex">
+                      <i class="fa-solid mx-1 fs-1 fa-envelope enve"></i>
+                        <li><a href="#">info752@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div><!--- END COL --> 
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="single_footer single_footer_address">
+                    <h4>Link's</h4>
+                    <ul>
+                      <li><a href="/index.html">HOME</a></li>
+                        <li><a href="/index.html#about">ABOUT</a></li>
+                        <li><a href="/faq's.html">FAQ's</a></li>
+                        <li><a href="/contact.html">CONTACT</a></li>
+                        <li><a href="/shop/shop.html">SHOP</a></li>
+                    </ul>
+                </div>
+            </div><!--- END COL -->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="single_footer single_footer_address">
+                    <h4>Subscribe today</h4>
+                    <div class="signup_form">                           
+                        <form action="#" class="subscribe">
+                            <input type="text" class="subscribe__input" placeholder="Email Address">
+                            <button type="button" class="subscribe__btn"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="social_profile">
+                    <ul>
+                      <li><a href="https://www.Facebook.com"  target="_black"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="https://www.twitter.com"  target="_black"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="https://www.google.com"  target="_black"><i class="fab fa-google-plus-g"></i></a></li>
+                      <li><a href="https://www.instagram.com"  target="_black"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>                          
+            </div><!--- END COL -->         
+        </div><!--- END ROW --> 
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 col-xs-12">
+                <p class="copyright">Copyright © 2019 <a href="#">Wow Brand</a>.</p>
+            </div><!--- END COL -->                 
+        </div><!--- END ROW -->                 
+    </div><!--- END CONTAINER -->
+  </div>
+</body>
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous"></script>
+
+
+<script src="script/checkout.js"></script>
+<script src="counter.js"></script>
+<script src="script.js"></script>
+
+</html>

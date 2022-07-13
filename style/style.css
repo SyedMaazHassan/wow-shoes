@@ -1,0 +1,1297 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@200&family=Dosis:wght@200&family=Kantumruy+Pro:wght@200&family=Lexend+Exa:wght@900&family=Norican&family=Open+Sans:wght@700&family=Oswald:wght@400;600&family=Red+Hat+Text:wght@300&family=Titillium+Web:wght@600;700&family=Yesteryear&display=swap');
+
+
+
+
+.navbar{
+	box-shadow: 0px 1px 5px 0px grey;
+}
+.nav-link{
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    color: black !important;
+}
+.brand{
+    color: rgb(197, 155, 38);
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Kantumruy Pro', sans-serif;
+    margin: 0 -10px;
+}
+
+.fa-mobile-screen, .fa-envelope {
+    color: rgb(161, 90, 56);
+}
+.fa-magnifying-glass, .fa-cart-shopping{
+    color: black;
+}
+#item-count{
+    /* border: 1px solid; */
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: -15px -5px;
+    background: rgb(102, 46, 21);
+}
+#offer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+}
+#shop_link{
+    text-decoration: none;
+    color: rgb(235, 181, 161);
+    font-weight: bold;
+    border-bottom: 1px solid rgb(236, 178, 156);
+}
+.midd-img{
+    background-image: url('../img/back2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 550px, 25% 450px, 0 550px );    
+}
+
+
+
+#shop-now{
+    width: 50%;
+    position: relative;
+    top: 25%;
+    left: 1%;
+}
+
+#shop-now button{
+    background-color: none;
+    color: rgb(247, 234, 234);
+    font-weight: bold;
+    border: none;
+    transition: 0.2s;
+    background-color: rgba(172, 91, 24, 0.856) !important;
+    padding: 10px;
+}
+#shop-now button:hover{
+    border: none;
+    background: rgba(172, 91, 24, 0.596) !important;
+    /* color: rgb(0, 0, 0); */
+    
+}
+#shop-now button:hover .fa-arrow-right{
+    display: inline-flex;
+}
+#shop-now h2{
+    font-size: 40px;
+    font-family: 'Kantumruy Pro', sans-serif;
+    color: rgb(0, 0, 0);
+    padding-top: 75px;
+}
+#shop-now h1{
+    font-size: 50px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+
+.midd-img img{
+    position: inherit;
+    background-position: center;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about-us:before{
+    content: '';
+    border: 2px solid #a7895cc2;
+    z-index: -1;
+    width: 90px;
+    width: 1;
+    background-color: #0c0803;
+    transform: rotate(-112deg);
+    margin: 14px 101px;
+    position: absolute; 
+}
+#about-us::after{
+    content: '';
+    border: 1px solid rgb(150, 120, 69);
+    z-index: -1;
+    width: 80px;
+    width: 1;
+    background-color:  rgb(85, 55, 11);
+    margin: 27px -68px;
+    transform: rotate(248deg);
+    /* background-color: red; */
+    position: absolute;   
+    margin: 21px 18px 30px -75px;
+}
+
+.about-us:before{
+    content: '';
+    border: 2px solid rgba(167, 137, 92, 0.76);
+    z-index: -1;
+    width: 90px;
+    width: 1;
+    background-color:  rgb(12, 8, 3);
+    margin: 19px 16px 22px 204px;
+    transform: rotate(-114deg);
+    /* background-color: red; */
+    position: absolute;   
+}
+.about-us::after{
+    content: '';
+    border: 1px solid rgb(150, 120, 69);
+    z-index: -1;
+    width: 80px;
+    width: 1;
+    background-color:  rgb(85, 55, 11);
+    margin: -6px 206px;
+    transform: rotate(-114deg);
+    position: absolute;   
+}
+
+
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(145, 77, 14);
+    border-radius: 70px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(173, 108, 47, 0.678);
+}
+::-webkit-scrollbar{
+    width: 8px; 
+}
+
+#featur{
+    display: flex;
+    align-items: center;   
+}
+#catch{
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+#e_commerce{
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2.3px;
+}
+#catch:before{
+    content: 'STABLISHED SINCE 2018';
+    font-size: 15px;
+    position: absolute;
+    transform: rotate(-89deg);
+    /* left: -4%; */
+    margin-top: 94px -48px;
+    letter-spacing: 6px;
+    color: #000;
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-weight: bold;
+    margin: 94px -183px;
+}
+
+
+
+#look{
+    font-family: 'Lexend Exa', sans-serif;
+    font-weight: bold;
+}
+.w-75{
+    font-family: 'Red Hat Text', sans-serif;
+    
+}
+#shoe_img{
+    z-index: -1;
+    position: relative;
+
+}
+#shoe_img:before{
+    content: '';
+    border: 1pc solid red;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 0%;
+    z-index: 1;
+}
+#shoe_img:after{
+    content: '';
+    border: 1pc solid red;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 5%;
+    z-index: 1;
+}
+
+
+#sale-shoe{
+    /* background: url(/img/sale6.jpg) no-repeat center fixed;
+    background-size: cover; */
+    background-image: url('../img/sale6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 550px;
+    margin-top: 150px;
+    animation-name: slider;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+
+.sale-price{
+    /* border: 1px solid; */
+    width: 350px;
+    height: 100%;
+    margin-left: 111px;
+    background-color: rgba(0, 0, 0, 0.89);
+    
+    
+}
+#news{
+    align-items: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+a,
+a:active,
+a:focus {
+    color: #333;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img {
+max-width: 100%;
+height: auto;
+}
+section {
+    padding: 60px 0;
+   /* min-height: 100vh;*/
+}
+.footer {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.609)), url('../img/back6.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    margin-top: 200px;
+    height: auto;
+}
+
+.fa-location-dot,.enve{
+    color: rgba(163, 101, 29, 0.836);
+}
+/*END FOOTER SOCIAL DESIGN*/
+
+
+@media only screen and (max-width:768px) { 
+.single_footer{margin-bottom:30px;}
+}
+.single_footer h4 {
+color: #fff;
+margin-top: 0;
+margin-bottom: 25px;
+font-weight: 700;
+text-transform: uppercase;
+font-size: 20px;
+}
+.single_footer h4::after {
+content: "";
+display: block;
+height: 3px;
+width: 80px;
+background: rgba(163, 101, 29, 0.836);
+margin-top: 20px;
+}
+.single_footer p{color:#fff;}
+.single_footer ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.single_footer ul li a {
+color: #fff;
+-webkit-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
+line-height: 36px;
+font-size: 15px;
+text-transform: capitalize;
+font-family: 'Red Hat Text', sans-serif;
+
+/* font-size: 18px; */
+}
+.single_footer ul li a:hover {
+    /* color: #ff3666; */
+    transform: perspective(5px);
+  
+}
+
+
+.single_footer_address ul li{color:#fff;}
+.single_footer_address ul li span {
+font-weight: 400;
+color: #fff;
+line-height: 28px;
+}
+.contact_social ul {
+list-style: outside none none;
+margin: 0;
+padding: 0;
+}
+
+/*START NEWSLETTER CSS*/
+.subscribe {
+display: block;
+position: relative;
+margin-top: 15px;
+width: 100%;
+}
+.subscribe__input {
+background-color: #fff;
+border: medium none;
+border-radius: 5px;
+color: #333;
+display: block;
+font-size: 15px;
+font-weight: 500;
+height: 60px;
+letter-spacing: 0.4px;
+margin: 0;
+padding: 0 150px 0 20px;
+text-align: center;
+text-transform: capitalize;
+width: 100%;
+}
+@media only screen and (max-width:768px) { 
+.subscribe__input{padding: 0 50px 0 20px;}
+}
+
+.subscribe__btn {
+background-color: transparent;
+border-radius: 0 25px 25px 0;
+color: #382208;
+cursor: pointer;
+display: block;
+font-size: 20px;
+height: 60px;
+position: absolute;
+right: 0;
+top: 0;
+width: 60px;
+}
+.subscribe__btn i{transition: all 0.3s ease 0s;}
+@media only screen and (max-width:768px) { 
+.subscribe__btn{right:0px;}
+}
+
+.subscribe__btn:hover i{
+color:#000000;
+}
+button {
+padding: 0;
+border: none;
+background-color: transparent;
+-webkit-border-radius: 0;
+border-radius: 0;
+}
+/*END NEWSLETTER CSS*/
+
+/*START SOCIAL PROFILE CSS*/
+.social_profile {margin-top:40px;}
+.social_profile ul{
+list-style: outside none none;
+margin: 0;
+padding: 0;
+}
+.social_profile ul li{float:left;}
+.social_profile ul li a {
+text-align: center;
+border: 0px;
+text-transform: uppercase;
+transition: all 0.3s ease 0s;
+margin: 0px 5px;
+font-size: 18px;
+color: #fff;
+border-radius: 30px;
+width: 50px;
+height: 50px;
+line-height: 50px;
+display: block;
+border: 1px solid rgba(255,255,255,0.2);
+}
+@media only screen and (max-width:768px) { 
+.social_profile ul li a{margin-right:10px;margin-bottom:10px;}
+}
+@media only screen and (max-width:480px) { 
+.social_profile ul li a{
+width:40px;
+height:40px;
+line-height:40px;
+}
+}
+.social_profile ul li a:hover{
+background:#f5f5f5;
+border: 1px solid #6d3d10;
+color:rgb(61, 31, 13);
+border:0px;
+}
+/*END SOCIAL PROFILE CSS*/
+.copyright {
+margin-top: 70px;
+padding-top: 40px;
+color:#fff;
+font-size: 15px;
+border-top: 1px solid rgba(255,255,255,0.4);
+text-align: center;
+}
+.copyright a{
+    color:#f3f3f3;
+    transition: all 0.2s ease 0s;
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+.copyright a:hover{color:#8b7662;}
+
+
+
+
+@media screen and (max-width: 990px) {
+  .side-img{
+      width: 160px;
+      height: 250px;
+  }
+  .about_heading h6{
+      font-size: 13px;
+      transition: 1s;
+  }
+  .about_heading p{
+      font-size: 12px;
+      transition: 1s;
+  }
+  #about-us:before{
+    display: none;
+}
+#about-us::after{
+    content: '';
+    border: 2px solid rgb(150, 120, 69);
+    z-index: -1;
+    width: 100px;
+    border-radius: 15px;
+    width: 1;
+    background-color:  rgb(85, 55, 11);
+    margin: 45px -125px;
+    transform: rotate(180deg);
+    position: absolute;   
+}
+
+.about-us:before{
+    display: none;
+}
+.about-us::after{
+    content: '';
+    border: 2px solid rgb(150, 120, 69);
+    z-index: -1;
+    width: 120px;
+    border-radius: 15px;
+    width: 1;
+    background-color:  rgb(85, 55, 11);
+    margin: 0px 80px;
+    transform: rotate(180deg);
+    position: absolute;   
+}
+#shoe_img{
+    width: 250px;
+    height: 350px;
+    transform: 1s;
+}
+
+}
+
+
+@media screen and (max-width: 870px) {
+    #shop-now h2{
+        font-size: 30px !important;
+        transition: 1s;
+    }
+    #shop-now h1{
+        font-size: 30px !important;
+        transition: 1s;
+    }
+
+}
+
+
+@media screen and (max-width: 765px) {
+    .side-img{
+        width: 130px;
+        height: 200px;
+    }
+    .about_heading h6{
+        font-size: 10px;
+        transition: 1s;
+    }
+    .about_heading{
+        margin: 0 !important;
+        padding: 10 !important;
+    }
+    .about_heading p{
+        font-size: 8px;
+        transition: 1s;
+    }
+    #about-us:before{
+      display: none;
+  }
+  #about-us::after{
+      content: '';
+      border: 2px solid rgb(150, 120, 69);
+      z-index: -1;
+      width: 100px;
+      border-radius: 15px;
+      width: 1;
+      background-color:  rgb(85, 55, 11);
+      margin: 39px -125px;
+      transform: rotate(180deg);
+      position: absolute;   
+  }
+  
+  .about-us:before{
+      display: none;
+  }
+  .about-us::after{
+      content: '';
+      border: 2px solid rgb(150, 120, 69);
+      z-index: -1;
+      width: 120px;
+      border-radius: 15px;
+      width: 1;
+      background-color:  rgb(85, 55, 11);
+      margin: 0px 80px;
+      transform: rotate(180deg);
+      position: absolute;   
+  }
+  #shoe_img{
+      width: 200px;
+      height: 300px;
+      transform: 1s;
+  }
+
+  .featur-side p{
+      font-size: 11px;
+  }
+  .featur-side h1{
+    font-size: 23px;
+}
+  #catch:before{
+    content: 'STABLISHED SINCE 2018';
+    font-size: 12px;
+    position: absolute;
+    transform: rotate(-89deg);
+    /* left: -4%; */
+    margin-top: 94px -48px;
+    letter-spacing: 4px;
+    color: #000;
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-weight: bold;
+    margin: 68px -135px;
+}
+#sale-shoe{
+    /* background: url(/img/sale6.jpg) no-repeat center fixed;
+    background-size: cover; */
+    background-image: url('../img/sale6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 350px;
+    margin-top: 150px;
+    animation-name: slider;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+
+.sale-price{
+    /* border: 1px solid; */
+    width: 250px;
+    height: 100%;
+    font-size: 10px;
+    margin-left: 111px;
+    background-color: rgba(0, 0, 0, 0.89);
+    
+    
+}
+#news{
+    align-items: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding: 10px;
+}
+#news p{
+    font-size: 10px;
+}
+#news h2{
+    font-size: 10px !important;
+}
+
+
+.midd-img{
+    background-image: url('../img/back2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 350px, 25% 290px, 0 350px ); 
+    align-items: center;   
+}
+#shop-now{
+    align-items: center;
+    width: 100%;
+    position: relative;
+    top: 8%;
+    left: 1%;
+}
+#logo{
+    width: 90px;
+}
+.brand{
+    color: rgb(197, 155, 38);
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Kantumruy Pro', sans-serif;
+    margin: 0 5px;
+}
+#header{
+    justify-content: center;
+}
+.number{
+    width: 100%;
+    justify-content: center;
+}
+  }
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 540px) {
+    .side-img{
+        width: 100px;
+        height: 180px;
+    }
+    .about_heading h6{
+        font-size: 7px;
+        transition: 1s;
+    }
+    .about_heading p{
+        font-size: 5px;
+        transition: 1s;
+    }
+    
+    .about_heading{
+        margin: 0 !important;
+        padding: 10 !important;
+    }
+    #about-us:before{
+      display: none;
+  }
+  #about-us::after{
+      content: '';
+      border: 2px solid rgb(150, 120, 69);
+      z-index: -1;
+      width: 100px;
+      border-radius: 15px;
+      width: 1;
+      background-color:  rgb(85, 55, 11);
+      margin: 35px -110px;
+      transform: rotate(180deg);
+      position: absolute;
+      /* display: none;    */
+  }
+  
+  .about-us:before{
+      display: none;
+  }
+  .about-us::after{
+      content: '';
+      border: 2px solid rgb(150, 120, 69);
+      z-index: -1;
+      width: 120px;
+      border-radius: 15px;
+      width: 1;
+      background-color:  rgb(85, 55, 11);
+      margin: 0px 80px;
+      transform: rotate(180deg);
+      position: absolute;   
+  }
+  #shoe_img{
+      width: 150px;
+      height: 250px;
+      transform: 1s;
+  }
+
+  .featur-side p{
+      font-size: 11px;
+  }
+  .featur-side h1{
+    font-size: 23px;
+}
+  #catch:before{
+    content: 'STABLISHED SINCE 2018';
+    font-size: 12px;
+    position: absolute;
+    transform: rotate(-89deg);
+    /* left: -4%; */
+    /* margin-top: 10px -48px; */
+    letter-spacing: 4px;
+    color: #000;
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-weight: bold;
+    margin: 62px -135px;
+}
+#sale-shoe{
+    /* background: url(/img/sale6.jpg) no-repeat center fixed;
+    background-size: cover; */
+    background-image: url('../img/sale6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 350px;
+    margin-top: 150px;
+    animation-name: slider;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+
+.sale-price{
+    /* border: 1px solid; */
+    width: 150px;
+    height: 100%;
+    font-size: 10px;
+    margin-left: 60px;
+    background-color: rgba(0, 0, 0, 0.89);
+    
+    
+}
+#news{
+    align-items: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding: 10px;
+}
+#news p{
+    font-size: 10px;
+}
+#news h2{
+    font-size: 1000px !important;
+}
+
+
+.midd-img{
+    background-image: url('../img/back2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 350px, 25% 290px, 0 350px ); 
+    align-items: center;   
+}
+#shop-now{
+    align-items: center;
+    width: 100%;
+    position: relative;
+    top: 8%;
+    left: 1%;
+}
+#logo{
+    width: 90px;
+}
+.brand{
+    color: rgb(197, 155, 38);
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Kantumruy Pro', sans-serif;
+    margin: 0 5px;
+}
+#header{
+    justify-content: center;
+}
+.number{
+    width: 100%;
+    justify-content: center;
+}
+  }
+
+
+
+
+
+  @media screen and (max-width: 440px) {
+    #shop-now h2{
+        font-size: 22px !important;
+        transition: 1s;
+    }
+    #shop-now h1{
+        font-size: 22px !important;
+        transition: 1s;
+    }
+    #click{
+        padding: 0;
+        font-size: 10px;
+    }
+    .side-img{
+        width: 80px;
+        height: 140px;
+    }
+    .about_heading{
+        margin: 0 !important;
+        padding: 10 !important;
+    }
+    .about_heading h1{
+        font-size: 20px;
+        transition: 1s;
+    }
+    .about_heading h6{
+        font-size: 5px;
+        transition: 1s;
+    }
+    .about_heading p{
+        font-size: 4px;
+        transition: 1s;
+    }
+    .featur-side p{
+        font-size: 2px;
+    }
+    
+    .about-us:before{
+        display: none;
+    }
+    .about-us::after{
+        content: '';
+        border: 2px solid rgb(150, 120, 69);
+        z-index: -1;
+        width: 120px;
+        border-radius: 15px;
+        width: 1;
+        background-color:  rgb(85, 55, 11);
+        margin: 0px 65px;
+        transform: rotate(180deg);
+        position: absolute;   
+    }
+   
+    #about-us:before{
+      display: none;
+  }
+  #about-us::after{
+      content: '';
+      border: 2px solid rgb(150, 120, 69);
+      z-index: -1;
+      width: 50px;
+      border-radius: 15px;
+      width: 1;
+      background-color:  rgb(85, 55, 11);
+      margin: 25px -65px;
+      transform: rotate(180deg);
+      position: absolute;
+      /* display: none;    */
+  }
+  
+  #shoe_img{
+      width: 150px;
+      height: 200px;
+      transform: 1s;
+  }
+
+  .featur-side p{
+      font-size: 8px;
+  }
+  .featur-side h1{
+    font-size: 15px;
+}
+#look{
+    font-size: 14px;
+}
+#e_commerce{
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-weight: bold;
+    font-size: 5px;
+}
+  #catch:before{
+    content: 'STABLISHED SINCE 2018';
+    font-size: 12px;
+    position: absolute;
+    transform: rotate(-89deg);
+    /* left: -4%; */
+    /* margin-top: 10px -48px; */
+    letter-spacing: 2px;
+    color: #000;
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-weight: bold;
+    margin: 50px -110px;
+}
+#sale-shoe{
+    /* background: url(/img/sale6.jpg) no-repeat center fixed;
+    background-size: cover; */
+    background-image: url('../img/sale6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+    margin-top: 150px;
+    animation-name: slider;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+
+.sale-price{
+    /* border: 1px solid; */
+    width: 150px;
+    height: 100%;
+    font-size: 10px;
+    margin-left: 60px;
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+#news{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding: 20px;
+}
+#news h1{
+    font-size: 15px !important;
+}
+#news h5{
+    font-size: 15px !important;
+}
+#news p{
+    font-size: 6px;
+}
+
+
+.midd-img{
+    background-image: url('../img/back2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 250px, 25% 210px, 0 250px ); 
+    align-items: center;   
+}
+#shop-now{
+    align-items: center;
+    width: 100%;
+    position: relative;
+    left: 1%;
+    top: -8%;
+}
+
+#logo{
+    width: 90px;
+}
+.brand{
+    color: rgb(197, 155, 38);
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Kantumruy Pro', sans-serif;
+   
+}
+#header{
+    justify-content: center;
+}
+.number{
+    width: 100%;
+    justify-content: center;
+}
+  }
+
+
+
+
+
+
+
+  
+  @media screen and (max-width: 365px) {
+    #shop-now h2{
+        font-size: 22px !important;
+        transition: 1s;
+    }
+    #shop-now h1{
+        font-size: 22px !important;
+        transition: 1s;
+    }
+    #click{
+        padding: 0;
+        font-size: 10px;
+    }
+    .side-img{
+        width: 60px;
+        height: 100px;
+    }
+    .about_heading h1{
+        font-size: 16px;
+        transition: 1s;
+    }
+    .about_heading{
+        margin: 0 !important;
+        padding: 10 !important;
+    }
+    .about_heading h6{
+        font-size: 5px;
+        transition: 1s;
+    }
+    .about_heading p{
+        font-size: 4px;
+        transition: 1s;
+    }
+    .featur-side p{
+        font-size: 2px;
+    }
+    
+    .about-us:before{
+        display: none;
+    }
+    .about-us::after{
+        content: '';
+        border: 1px solid rgb(150, 120, 69);
+        z-index: -1;
+        width: 120px;
+        border-radius: 15px;
+        width: 1;
+        background-color:  rgb(85, 55, 11);
+        margin: 1px 65px;
+        transform: rotate(180deg);
+        position: absolute;   
+    }
+   
+    #about-us:before{
+      display: none;
+  }
+  #about-us::after{
+      content: '';
+      border: 1px solid rgb(150, 120, 69);
+      z-index: -1;
+      width: 50px;
+      border-radius: 15px;
+      width: 1;
+      background-color:  rgb(85, 55, 11);
+      margin: 20px -65px;
+      transform: rotate(180deg);
+      position: absolute;
+      /* display: none;    */
+  }
+  
+  #shoe_img{
+      width: 100px;
+      height: 150px;
+      margin: 10px;
+      padding: 0 ;
+      transform: 1s;
+  }
+ 
+
+  .featur-side p{
+      font-size: 4px;
+      letter-spacing: 0px;
+  }
+  .featur-side h1{
+    font-size: 15px;
+}
+#look{
+    font-size: 10px;
+}
+#e_commerce{
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-weight: bold;
+    font-size: 5px;
+}
+#catch{
+    font-size: 12px;
+}
+  #catch:before{
+    content: 'STABLISHED SINCE 2018';
+    font-size: 12px;
+    position: absolute;
+    transform: rotate(-89deg);
+    /* left: -4%; */
+    /* margin-top: 10px -48px; */
+    color: #000;
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-weight: bold;
+    margin: 50px -110px;
+}
+#sale-shoe{
+    /* background: url(/img/sale6.jpg) no-repeat center fixed;
+    background-size: cover; */
+    background-image: url('../img/sale6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+    margin-top: 150px;
+    animation-name: slider;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    margin: 0px !important;
+}
+
+.sale-price{
+    /* border: 1px solid; */
+    width: 150px;
+    height: 100%;
+    font-size: 10px;
+    margin-left: 60px;
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+#news{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding: 20px;
+}
+#news h1{
+    font-size: 15px !important;
+}
+#news h5{
+    font-size: 15px !important;
+}
+#news p{
+    font-size: 6px;
+}
+
+
+.midd-img{
+    background-image: url('../img/back2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 250px, 25% 210px, 0 250px ); 
+    align-items: center;   
+}
+#shop-now{
+    align-items: center;
+    width: 100%;
+    position: relative;
+    left: 1%;
+    top: -8%;
+}
+
+#logo{
+    width: 90px;
+}
+.brand{
+    color: rgb(197, 155, 38);
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Kantumruy Pro', sans-serif;
+   
+}
+#header{
+    justify-content: center;
+}
+.number{
+    width: 100%;
+    justify-content: center;
+}
+.footer{
+    margin-top: 100px !important;
+}
+  }
+
+  @media screen and (max-width: 320px){
+    #catch{
+        font-size: 10px;
+    }
+    #look{
+        font-size: 8px;
+    }
+    #catch:before{
+        content: 'STABLISHED SINCE 2018';
+        font-size: 10px;
+        position: absolute;
+        transform: rotate(-89deg);
+        /* left: -4%; */
+        /* margin-top: 10px -48px; */
+        color: #000;
+        font-family: 'Kantumruy Pro', sans-serif;
+        font-weight: bold;
+        margin: 38px -95px;
+    }
+  }
+
+
+
+
